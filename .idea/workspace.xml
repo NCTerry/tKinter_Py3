@@ -15,7 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tkinter3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tkinter3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinter3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PythonTkIntroButton.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PythonTkIntroButton.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonTkIntroButton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="63" lean-forward="false" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="63" />
+            <state relative-caret-position="120">
+              <caret line="8" column="86" lean-forward="false" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -100,16 +100,16 @@
         <option value="$PROJECT_DIR$/../../Python/Book_FirstRead/Functions.py" />
         <option value="$PROJECT_DIR$/tkinter_menuBar.py" />
         <option value="$PROJECT_DIR$/tkinter_buttons.py" />
-        <option value="$PROJECT_DIR$/PythonTkIntroButton.py" />
         <option value="$PROJECT_DIR$/PythonIntro.py" />
         <option value="$PROJECT_DIR$/tkinter3.py" />
+        <option value="$PROJECT_DIR$/PythonTkIntroButton.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="515" />
+    <option name="x" value="421" />
     <option name="y" value="23" />
-    <option name="width" value="924" />
+    <option name="width" value="1018" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectView">
@@ -406,10 +406,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="515" y="23" width="924" height="873" extended-state="0" />
+    <frame x="421" y="23" width="1018" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14839424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13440321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,26 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTkIntroButton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="63" lean-forward="false" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py3tKinter_BasePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -555,6 +539,22 @@
           <folding>
             <element signature="e#1421#1483#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py3tKinter_BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTkIntroButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="86" lean-forward="false" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
