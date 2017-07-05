@@ -1,23 +1,7 @@
 '''
 BUILT FOR PYTHON 3+
 
-###We have the very basics for a GUI window in this block comment.
-    It will pop up, in the top left corner with nothing.
-        But it was created with just this.
-This is included in our program, but just wanted to state the basics.
----------------------------------------------------------------
-from tkinter import *   #import everthing from tkinter library
-# Make the Window Class
-class Window(Frame):
-    def __init__(self, master = None):
-        Frame.__init__(self, master)    # Just referencing the initial
-        self.master = master    # Stating the master widget
-root = Tk()     # Stating our root window
-app = Window(root)
-root.mainloop()
----------------------------------------------------------------
-'''
-'''
+
 This is a very simple initial program.
 We create a Window class that creates the Window class.
 
@@ -34,6 +18,8 @@ Any object (Window) that we create as seen here in main, will have a primary
     Show Text will display a new text line in our tkinter window.
 '''
 
+
+# ---------------------------------------------------------------
 from tkinter import *   #import everthing from tkinter library
 from PIL import Image, ImageTk
 
