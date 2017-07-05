@@ -1,5 +1,5 @@
 '''
-BUILT FOR PYTHON 3+
+BUILT FOR PYTHON 3+ .
 
 ###We have the very basics for a GUI window in this block comment.
     It will pop up, in the top left corner with nothing.
