@@ -68,6 +68,7 @@ class StartPage(tk.Frame):
 
 #======Everything outside of this and (qf() method) is a copy of the PythonIntro.py file.=======
 # We just added a button/method to our start page
+# This py3 method must be above the button-code.
         button1 = tk.Button(self, text="Visit Page 1",
                             command=lambda: qf("See this worked"))
         button1.pack()
