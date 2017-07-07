@@ -1,22 +1,20 @@
 
 '''
-This is a primary page. We have create a start page and a dictionary that holds pages.
-This is a good initial format.
-We can basically start here for any tKinter and create what we need from here...
-We can add numerous pages to our dictionary of pages.
 
+BasePage 5:
 
-BasePage: We have our base pages and buttons created in 1-4
+We have our base pages and buttons created in 1-4
     We are adding in a new page (page3) with a matplotlib based plot.
-    For this, we can easily use plot.show and the matplotlib library to plot, but these will
-        bring up plots on top of our tkinter windows. We want to add a plot TO the windows.
+    For this, we can easily use plot.show and the matplotlib library to plot, but that will
+        bring up plots on top of our tkinter windows.
+        We want to add a plot TO the actual windows here, not just on top of it.
 
 1) We imported the matplotlib and several specifics seen below
 2) Created a GraphPage (page3), changed linked details on page2 and closepage, added GraphPage to dictionary
 3) Added a button on startpage to access  GraphPage  directly
 4) Added a simple graph plot to the graph page
 5) Added a standard toolbar to the graph plot
-6) Had to increase the y-height to view the toolbar.
+6) Note: Had to increase the geometry y-height to view the toolbar.
 7) Now when user accesses the Graph page, the plot will show on that page.
 
 '''

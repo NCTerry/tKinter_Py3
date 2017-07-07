@@ -1,19 +1,17 @@
 
 '''
-This is a primary page. We have create a start page and a dictionary that holds pages.
-This is a good initial format.
-We can basically start here for any tKinter and create what we need from here...
-We can add numerous pages to our dictionary of pages.
 
-
-BasePage: 2) We added a button to the start page.
-    3) Now we will add a new page to this TK dictionary.
-        Changes to the tuple to accept/display new pages with a for loop
+BasePage: 3
+1) We added a button to the start page that moves to page one.
+    2) Now we will add a new (page one) to this TK dictionary.
 
         If you create a new page, you need to add it to our tuple in the for loop.
+            for loop in the:    class SeaofBTCapp
 
-        Initially a page classes below can be copied/pasted.
-            You need to change specifics, and can add anything.
+        Initially a page class below can be copied/pasted.
+            You need to change specifics in the copy, and can add anything.
+            If you copy and paste a page, and change attributes remember to add that page
+                to the for loop.
 '''
 import tkinter as tk
 

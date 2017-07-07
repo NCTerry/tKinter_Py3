@@ -1,12 +1,9 @@
 
 '''
-This is a primary page. We have create a start page and a dictionary that holds pages.
-This is a good initial format.
-We can basically start here for any tKinter and create what we need from here...
-We can add numerous pages to our dictionary of pages.
 
+BasePage 2:
 
-BasePage: We have just added a button and method to the start page to show the change.
+We have just added a button and corresponding method to the start page to show the change.
 '''
 import tkinter as tk
 

@@ -1,19 +1,19 @@
 
 '''
-This is a primary page. We have create a start page and a dictionary that holds pages.
-This is a good initial format.
-We can basically start here for any tKinter and create what we need from here...
-We can add numerous pages to our dictionary of pages.
 
-
-BasePage:
-1) We changed all the tk.Frame    /tk.label   /tk.Button to  ttk for aesthetics.
+BasePage 4:
+1) We imported the ttk from tkinter and
+      changed all the tk.Frame    /tk.label   /tk.Button to  ttk for aesthetics.
                       ttk.Frame  /ttk.label  /ttk.Button
     These are through the whole program.
-    It really just changed the button in the very basic way, but it is more pleasing.
-2) We added a title (class SeaofBTCapp) to the entire program
-3) We changed the geometry specs (class SeaofBTCapp) to the primary class
-4) We tried to add an icon (class SeaofBTCapp) and it did not finalize.
+    It really just changed the buttons and etc in the very basic way,
+        but it is more pleasing to look at from Files 1:2:3.
+
+2) We added a title (in class SeaofBTCapp) to the entire program
+3) We changed the geometry specs (in class SeaofBTCapp) to the primary class
+    This was in main, still is, but commented out. Both work the same but I wanted it in class
+
+4) We tried to add an icon (in class SeaofBTCapp) and it did not finalize.
     We ended up with a seeming unrecognized icon, it does not seem to comprehend the
         image we are trying to bring in. I tried a png and an ico, both are 12x16 pixels
         Both get the unrecognized icon image. They get it, so clearly the program is working

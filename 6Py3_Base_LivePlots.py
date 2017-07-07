@@ -1,27 +1,24 @@
 
 '''
-This is a primary page. We have create a start page and a dictionary that holds pages.
-This is a good initial format.
-We can basically start here for any tKinter and create what we need from here...
-We can add numerous pages to our dictionary of pages.
+BasePage 6:
 
-
-BasePage: We have our base pages and buttons created in files 1-5
-    On file 5, we added a graph page and created a plot on the Graphpage (page3).
+We have our base pages and buttons created in files 1-5
+    On file 5, we added a graph page and created a plot on the Graph page (page3).
     We added that graph page to our dictionary
     Here will will make this a live graph that we can adjust by saving the txt file.
 
     1) We import the animation sub-library from matplotlib
     2) We imported the style function from matplotlib to adjust style on plot
-        style.use("dark_background")    --> This gives us the same graph but a black background
+        style.use("dark_background")
+        --> This gives us the same plot, but a black background
 
-    3) Cut 3 lines from the graph page that initializes the data for the plot, & pasted up top
+    3) We cut 3 lines from the graph page that initializes the data for the plot, & pasted up top
     4) We have a txt file with   x,y   data points in our directory.
     5) Created an "animate" method that pulls and puts points from txt file in plot format
     6) Keep the graph page the same other than pulling those 3 lines
     7) Create an animation object in main.
     8) When user goes to GraphPage it will show plot with data from txt file.
-    9) While you are on the GraphPage, if you pull up the txt file and change it
+    9) While user is on the tKinter GraphPage, if you pull up the txt file and change it
         EX:
 1,6
 2,7
