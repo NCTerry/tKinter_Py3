@@ -17,12 +17,16 @@ BasePage: We have our base pages and buttons created in 1-4
 4) Added a simple graph plot to the graph page
 5) Added a standard toolbar to the graph plot
 6) Had to increase the y-height to view the toolbar.
+7) Now when user accesses the Graph page, the plot will show on that page.
 
 '''
 import tkinter as tk
 from tkinter import ttk
+
 # ***NEW***
 # ***NEW***
+#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
 #***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
 '''
 Terminal/CMD     pip install matplotlib
@@ -33,8 +37,10 @@ from matplotlib import style #***NEW***
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
 from matplotlib.figure import Figure
-#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
 
+#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
 
 LARGE_FONT = ("Verdana", 12) # Base font that we want to use and will call
 # ==================================================
@@ -182,6 +188,14 @@ class GraphPage(ttk.Frame):
         # ***NEW***
         # ***NEW***
         # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+
+
         f = Figure(figsize=(5,5), dpi=100) # Not sure details
         a = f.add_subplot(111) #111 means 1x1 on chart 1
         a.plot([1,2,3,4,5,6,7,8], [5,6,1,3,8,9,3,5]) # Simple chart
@@ -199,6 +213,13 @@ class GraphPage(ttk.Frame):
         canvas1._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
         # Note we just added the standard tool bar to the graph but I
         #   i could not see it at first. I had to increase my y-height on page
+
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
         # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
 
 

@@ -7,9 +7,17 @@ We can add numerous pages to our dictionary of pages.
 
 
 BasePage:
-1) We changed all the tk.Frame/tk.label/tk.Button to  ttk for aesthetics.
-2) We added a title to the entire program
-3) We changed the geometry specs to the primary class
+1) We changed all the tk.Frame    /tk.label   /tk.Button to  ttk for aesthetics.
+                      ttk.Frame  /ttk.label  /ttk.Button
+    These are through the whole program.
+    It really just changed the button in the very basic way, but it is more pleasing.
+2) We added a title (class SeaofBTCapp) to the entire program
+3) We changed the geometry specs (class SeaofBTCapp) to the primary class
+4) We tried to add an icon (class SeaofBTCapp) and it did not finalize.
+    We ended up with a seeming unrecognized icon, it does not seem to comprehend the
+        image we are trying to bring in. I tried a png and an ico, both are 12x16 pixels
+        Both get the unrecognized icon image. They get it, so clearly the program is working
+            just not enough to actually read what the image is or be able to accept it.
 '''
 import tkinter as tk
 from tkinter import ttk #***NEW***
@@ -36,11 +44,23 @@ class SeaofBTCapp(tk.Tk):
 
 
         # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+
         tk.Tk.title(self, "Nate's Title From SeaofBTCapp Class") #***NEW***
         tk.Tk.geometry(self, "500x500") #***NEW***
-        # Can't get the icon to show, now just a png icon
+        # Can't get the icon to show, now just has a pdf icon
         # Resized to 12/16 pixels
-        tk.Tk.iconbitmap(self, "icon.png")
+        tk.Tk.iconbitmap(self, "4icon.png")
+
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
+        # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
         # ***NEW***#***NEW***#***NEW***#***NEW***#***NEW***#***NEW***
 
 # /Users/Tracksta6/Dropbox/Computer Science/tkinter/Tkinter3
