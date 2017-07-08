@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5996ce1d-6690-4d0d-863f-7fd69478f97f" name="Default" comment="" />
+    <list default="true" id="5996ce1d-6690-4d0d-863f-7fd69478f97f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8Py3_Base_LivePlots3.py" afterPath="$PROJECT_DIR$/8Py3_Base_LivePlots3.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +17,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7Py3_Base_LivePlots2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7Py3_Base_LivePlots2.py">
+      <file leaf-file-name="11Py3_Base_ExchangeChoice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11Py3_Base_ExchangeChoice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="276" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
-              <folding>
-                <element signature="e#1672#1685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8Py3_Base_LivePlots3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8Py3_Base_LivePlots3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="95" column="80" lean-forward="false" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
-              <folding>
-                <element signature="e#1349#1362#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +39,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>readall</find>
+      <find>LARGE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,13 +66,16 @@
         <option value="$PROJECT_DIR$/fake.py" />
         <option value="$PROJECT_DIR$/7Py3_Base_LivePlots2.py" />
         <option value="$PROJECT_DIR$/8Py3_Base_LivePlots3.py" />
+        <option value="$PROJECT_DIR$/9Py3_Base_MainMenu.py" />
+        <option value="$PROJECT_DIR$/10Py3_Base_MainMenu2.py" />
+        <option value="$PROJECT_DIR$/11Py3_Base_ExchangeChoice.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="550" />
+    <option name="x" value="488" />
     <option name="y" value="23" />
-    <option name="width" value="890" />
+    <option name="width" value="952" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -133,24 +125,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.8Py3_Base_LivePlots3">
-    <configuration default="false" name="3Py3_Base_NewPages" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tkinter3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3Py3_Base_NewPages.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.11Py3_Base_ExchangeChoice">
     <configuration default="false" name="7Py3_Base_LivePlots2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,40 +143,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="6Py3_Base_LivePlots" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tkinter3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6Py3_Base_LivePlots.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="fake" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tkinter3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fake.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="8Py3_Base_LivePlots3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,6 +156,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tkinter3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8Py3_Base_LivePlots3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="9Py3_Base_MainMenu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tkinter3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9Py3_Base_MainMenu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="10Py3_Base_MainMenu2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tkinter3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10Py3_Base_MainMenu2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="11Py3_Base_ExchangeChoice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tkinter3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11Py3_Base_ExchangeChoice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -354,19 +346,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.3Py3_Base_NewPages" />
-      <item index="1" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.6Py3_Base_LivePlots" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fake" />
-      <item index="4" class="java.lang.String" itemvalue="Python.8Py3_Base_LivePlots3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.8Py3_Base_LivePlots3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.9Py3_Base_MainMenu" />
+      <item index="3" class="java.lang.String" itemvalue="Python.10Py3_Base_MainMenu2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11Py3_Base_ExchangeChoice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.8Py3_Base_LivePlots3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.fake" />
-        <item index="3" class="java.lang.String" itemvalue="Python.6Py3_Base_LivePlots" />
-        <item index="4" class="java.lang.String" itemvalue="Python.3Py3_Base_NewPages" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11Py3_Base_ExchangeChoice" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10Py3_Base_MainMenu2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.8Py3_Base_LivePlots3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.9Py3_Base_MainMenu" />
+        <item index="4" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
       </list>
     </recent_temporary>
   </component>
@@ -384,10 +376,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="550" y="23" width="890" height="873" extended-state="0" />
+    <frame x="488" y="23" width="952" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089758344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075187966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -429,7 +421,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -614,11 +608,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8Py3_Base_LivePlots3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="95" column="80" lean-forward="false" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
+        <state relative-caret-position="345">
+          <caret line="68" column="65" lean-forward="false" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
           <folding>
-            <element signature="e#1349#1362#0" expanded="true" />
+            <element signature="e#1342#1355#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9Py3_Base_MainMenu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="66" column="65" lean-forward="false" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+          <folding>
+            <element signature="e#961#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10Py3_Base_MainMenu2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding>
+            <element signature="e#910#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11Py3_Base_ExchangeChoice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

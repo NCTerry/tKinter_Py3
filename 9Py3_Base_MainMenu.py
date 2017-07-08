@@ -1,26 +1,22 @@
 '''
-BasePage 8:
+BasePage 9:
 
 In file 7 we created a live plot that pulled, decoded, and edited data from a Bitcoin trading website and used the animate method to plot, and continued to adjust an open plot, based and internet connection and the updated trading data.
+In File 8 we used that same bitcoin live trade and simply customized the graph to be more aesthetic.
 
- This is the same, but we are editing it and customizing the plot.
+Here in file 9 we are adding a simple menubar. This is done in the class SeaofBTCapp
+    The menu bar will have a few simple options, but will not do anything yet.
 
- 1) Played with the f = Figure  determined best size for our graph. (switched to 10,6)
- 2) Added,   "g", label="buys")    to the a.plot functions in the animate method.
- 3) Added,   "r", label="sells")    to the a.plot functions in the animate method.
-        These turned our plot into a red/green lines with labels. Not just point-points.
-        There are many colors and styles such as:
-            #00A3E0     &&      #183A54     which are hex colors.
+1) Changed tk geometry to 1280x720
+2) Changed animation object in main to 5000ms --> updates every 5 seconds now.
+3) In the class SeaOfBTCapp we are adding a top menu bar
+        Create the menubar and assign it to this container
+            Add a File to the menubar
+                Add   Save Settings   to the File dropdown
+                Add   Exit   to the File dropdown
+4) We will add options and commands in the next file.
 
- 4) Added a plot title to the bottom of the animate method.
 
- 5) Added   a.legend(.....      to the bottom of the animate method.
-        This lets us put our line labels in the upper left hand of the plot.
-        If you leave it on the plot base, it can be overshadowed by the plot lines.
-
- 6) Added a live addition to the plot title. At the bottom of animate method, we added the last price
- from our 2000 point data set that we pull in. This is a great way to watch the live update,
- since this will change numerically based on the last update info.
 
 
 '''
@@ -46,6 +42,8 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolb
 from matplotlib.figure import Figure
 import matplotlib.animation as animation
 from matplotlib import style
+
+from matplotlib import pyplot as plt        #----NEW----
 
 # ==================================================
 style.use("ggplot")
@@ -89,27 +87,16 @@ def animate(i):  # animate function with  'i' for interval
     sells1["datestamp"] = np.array(sells1["timestamp"]).astype("datetime64[s]")
     sellDates1 = (sells1["datestamp"]).tolist()
 
-    # ----NEW---
-    # ----NEW---
-    # ----NEW---
-    # ----NEW---
-    # ----NEW---
     a.clear()
     # Plot the data points, and turn them into colored-labeled lines.
-    a.plot_date(buyDates1, buys1["price"], "g", label="buys")                   # ----NEW---
-    a.plot_date(sellDates1, sells1["price"], "#00A3E0", label="sells")          # ----NEW---
-    # Plot title with a live update of the last price from the most recent data set.
-    title = "BTC-e BTCUSD Prices\nLast Price: " + str(data["price"][1999])      # ----NEW---
-    a.set_title(title)                                                          # ----NEW---
+    a.plot_date(buyDates1, buys1["price"], "g", label="buys")
+    a.plot_date(sellDates1, sells1["price"], "#00A3E0", label="sells")
     # Legend lets us specifically place our line labels in the top left
     # Default they are put on the graph and will be covered up if the lines go over them.
-    a.legend(bbox_to_anchor=(0,1.02, 1, .102), loc=3, ncol=2, borderaxespad=0)  # ----NEW---
-
-    # ----NEW---
-    # ----NEW---
-    # ----NEW---
-    # ----NEW---
-    # ----NEW---
+    a.legend(bbox_to_anchor=(0,1.02, 1, .102), loc=3, ncol=2, borderaxespad=0)
+    # Plot title with a live update of the last price from the most recent data set.
+    title = "BTC-e BTCUSD Prices\nLast Price: " + str(data["price"][1999])
+    a.set_title(title)
     # -------------------------------------------------------
 
 '''
@@ -141,7 +128,7 @@ class SeaofBTCapp(tk.Tk):
         tk.Tk.__init__(self, *args, **kwargs)
 
         tk.Tk.title(self, "Nate's Title From SeaofBTCapp Class")
-        tk.Tk.geometry(self, "1000x800")
+        tk.Tk.geometry(self, "1280x720")
         # Can't get the icon to show, now just a png icon
         # Resized to 12/16 pixels
         tk.Tk.iconbitmap(self, "icon.png")
@@ -157,6 +144,32 @@ class SeaofBTCapp(tk.Tk):
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
+
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+
+
+        # Create an overall menubar, and assign to this tkinter
+        menuBar1 = tk.Menu(container)
+        # Adding a tearoff divider into the menu that drops down
+        fileMenu1 = tk.Menu(menuBar1, tearoff=0)
+        # Now actually place a literal piece on the menubar
+        menuBar1.add_cascade(label="File", menu=fileMenu1)
+        fileMenu1.add_command(label="Save Settings", command=lambda: popupmsg("Not created yet"))
+        fileMenu1.add_separator()
+        fileMenu1.add_command(label="Exit", command=quit)
+
+
+        tk.Tk.config(self, menu=menuBar1)
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+        # ----NEW--------NEW--------NEW--------NEW--------NEW----
+
 
         # Specify a dictionary here
         self.frames = {}
@@ -177,6 +190,7 @@ class SeaofBTCapp(tk.Tk):
             frame.grid(row=0, column=0, sticky="nsew")
 
         self.show_frame(StartPage)
+
 
     # ==================================================
     def show_frame(self, controller1):
@@ -208,7 +222,6 @@ class StartPage(ttk.Frame):
 
 
 # ==================================================
-
 class TradingPage(ttk.Frame):
     def __init__(self, parent, controller):
         ttk.Frame.__init__(self, parent)
@@ -248,7 +261,6 @@ class TradingPage(ttk.Frame):
         # *****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
 
 
-#
 class BTCePage(ttk.Frame):
     def __init__(self, parent, controller):
         ttk.Frame.__init__(self, parent)
@@ -283,12 +295,6 @@ class BTCePage(ttk.Frame):
         #   i could not see it at first. I had to increase my y-height on page
 
         # ----------------------------
-        # ----------------------------
-        # ----------------------------
-        # *****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
-        # *****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
-        # *****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
-
 
 # ==================================================
 # ==================================================
@@ -296,8 +302,9 @@ class BTCePage(ttk.Frame):
 
 app = SeaofBTCapp()
 
-# using our f-object from the top, animate-function, and 1000 milliseconds
+# using our f-object from the top, animate-function, and 5000 milliseconds
+# This means we will update our data every 5 seconds.
 # This is what plotted to the graph page in file 6
-ani1 = animation.FuncAnimation(f, animate, interval=1000)
+ani1 = animation.FuncAnimation(f, animate, interval=5000)
 
 app.mainloop()
