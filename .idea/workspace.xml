@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5996ce1d-6690-4d0d-863f-7fd69478f97f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6Py3_Base_LivePlots.py" afterPath="$PROJECT_DIR$/6Py3_Base_LivePlots.py" />
-    </list>
+    <list default="true" id="5996ce1d-6690-4d0d-863f-7fd69478f97f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +15,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7Py3_Base_LivePlots2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7Py3_Base_LivePlots2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7Py3_Base_LivePlots2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="292" column="88" lean-forward="false" selection-start-line="292" selection-start-column="88" selection-end-line="292" selection-end-column="88" />
+            <state relative-caret-position="105">
+              <caret line="276" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
               <folding>
                 <element signature="e#1672#1685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8Py3_Base_LivePlots3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8Py3_Base_LivePlots3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="95" column="80" lean-forward="false" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
+              <folding>
+                <element signature="e#1349#1362#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,13 +76,14 @@
         <option value="$PROJECT_DIR$/6Py3_Base_LivePlots.py" />
         <option value="$PROJECT_DIR$/fake.py" />
         <option value="$PROJECT_DIR$/7Py3_Base_LivePlots2.py" />
+        <option value="$PROJECT_DIR$/8Py3_Base_LivePlots3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
+    <option name="x" value="550" />
     <option name="y" value="23" />
-    <option name="width" value="832" />
+    <option name="width" value="890" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -122,24 +133,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7Py3_Base_LivePlots2">
-    <configuration default="false" name="PythonTkIntroButton" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tkinter3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTkIntroButton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.8Py3_Base_LivePlots3">
     <configuration default="false" name="3Py3_Base_NewPages" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,6 +198,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tkinter3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fake.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="8Py3_Base_LivePlots3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tkinter3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8Py3_Base_LivePlots3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -343,19 +354,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.PythonTkIntroButton" />
-      <item index="1" class="java.lang.String" itemvalue="Python.3Py3_Base_NewPages" />
-      <item index="2" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.6Py3_Base_LivePlots" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fake" />
+      <item index="0" class="java.lang.String" itemvalue="Python.3Py3_Base_NewPages" />
+      <item index="1" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.6Py3_Base_LivePlots" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fake" />
+      <item index="4" class="java.lang.String" itemvalue="Python.8Py3_Base_LivePlots3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fake" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6Py3_Base_LivePlots" />
-        <item index="3" class="java.lang.String" itemvalue="Python.3Py3_Base_NewPages" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PythonTkIntroButton" />
+        <item index="0" class="java.lang.String" itemvalue="Python.8Py3_Base_LivePlots3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.7Py3_Base_LivePlots2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.fake" />
+        <item index="3" class="java.lang.String" itemvalue="Python.6Py3_Base_LivePlots" />
+        <item index="4" class="java.lang.String" itemvalue="Python.3Py3_Base_NewPages" />
       </list>
     </recent_temporary>
   </component>
@@ -373,10 +384,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="23" width="832" height="873" extended-state="0" />
-    <editor active="false" />
+    <frame x="550" y="23" width="890" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1701603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089758344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -593,10 +604,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7Py3_Base_LivePlots2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="292" column="88" lean-forward="false" selection-start-line="292" selection-start-column="88" selection-end-line="292" selection-end-column="88" />
+        <state relative-caret-position="105">
+          <caret line="276" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
           <folding>
             <element signature="e#1672#1685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8Py3_Base_LivePlots3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="95" column="80" lean-forward="false" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
+          <folding>
+            <element signature="e#1349#1362#0" expanded="true" />
           </folding>
         </state>
       </provider>
