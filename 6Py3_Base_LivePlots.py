@@ -3,7 +3,8 @@
 BasePage 6:
 
 We have our base pages and buttons created in files 1-5
-    On file 5, we added a graph page and created a plot on the Graph page (page3).
+    But we deleted the base pages to reduce clutter. They do nothing. We are focused on the plot page.
+    On file 5, we added a graph page and created a plot on the Graph page.
     We added that graph page to our dictionary
     Here will will make this a live graph that we can adjust by saving the txt file.
 
@@ -46,6 +47,7 @@ from matplotlib.figure import Figure
 #*****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
 #*****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
 #*****NEW******#*****NEW******#*****NEW******#*****NEW******#*****NEW******
+
 import matplotlib.animation as animation
 from matplotlib import style
 style.use("dark_background")
@@ -117,7 +119,7 @@ class SeaofBTCapp(tk.Tk):
 
         # For loop that ranges in our page limits
         # Make sure to add any new page to our tuple for loop
-        for F in (StartPage, PageOne, PageTwo, GraphPage, ClosePage):
+        for F in (StartPage, GraphPage):
             # Use F so that we can progress through our pages.
             frame = F(container, self)
             self.frames[F] = frame
@@ -146,57 +148,17 @@ class StartPage(ttk.Frame):
         label = ttk.Label(self, text="Start Page", font=LARGE_FONT)
         label.pack(padx=10, pady=10)
 
-        # ttk will give us a good looking button
-        button1 = ttk.Button(self, text="Visit Page 1",
-                            command=lambda: controller.show_frame(PageOne))
-        button1.pack()
-
+        # -------------------------------------
         # ttk will give us a good looking button
         startPage_GraphPageButton = ttk.Button(self, text="Skip To GraphPage",
                             command=lambda: controller.show_frame(GraphPage))
         startPage_GraphPageButton.pack()
 
-# ==================================================
-class PageOne(ttk.Frame):
-    def __init__(self, parent, controller):
-        ttk.Frame.__init__(self, parent)
-        label = ttk.Label(self, text="Page One", font=LARGE_FONT)
-        label.pack(padx=10, pady=10)
-
+        # -------------------------------------
         # ttk will give us a good looking button
-        pageOne_homeButton = ttk.Button(self, text="Back to Home",
-                            command=lambda: controller.show_frame(StartPage))
-        pageOne_homeButton.pack()
-
-        # ttk will give us a good looking button
-        pageOne_pageTwoButton = ttk.Button(self, text="Page Two",
-                            command=lambda: controller.show_frame(PageTwo))
-        pageOne_pageTwoButton.pack()
-
-# ==================================================
-# You can see that these are basic pages, and can begin with a copy/paste
-# Details/attributes need to be changed but they follow the same format from the beginning.
-#
-class PageTwo(ttk.Frame):
-    def __init__(self, parent, controller):
-        ttk.Frame.__init__(self, parent)
-        label = ttk.Label(self, text="Page Two", font=LARGE_FONT)
-        label.pack(padx=10, pady=10)
-
-        # ttk will give us a good looking button
-        pageTwo_pageOneButton = ttk.Button(self, text="Page One",
-                            command=lambda: controller.show_frame(PageOne))
-        pageTwo_pageOneButton.pack()
-
-        # ttk will give us a good looking button
-        pageTwo_homeButton = ttk.Button(self, text="Back to Home",
-                            command=lambda: controller.show_frame(StartPage))
-        pageTwo_homeButton.pack()
-
-        # ttk will give us a good looking button
-        pageTwo_GraphPageButton = ttk.Button(self, text="To Graph Page",
-                            command=lambda: controller.show_frame(GraphPage))
-        pageTwo_GraphPageButton.pack()
+        button1 = ttk.Button(self, text="Quit",
+                            command=quit)
+        button1.pack()
 
 # ==================================================
 class GraphPage(ttk.Frame):
@@ -205,20 +167,17 @@ class GraphPage(ttk.Frame):
         label = ttk.Label(self, text="Graph Page", font=LARGE_FONT)
         label.pack(padx=10, pady=10)
 
-        # ttk will give us a good looking button
-        GraphPage_pageTwoButton = ttk.Button(self, text="Page Two",
-                            command=lambda: controller.show_frame(PageTwo))
-        GraphPage_pageTwoButton.pack()
+        # ----------------------------
+        label2 = ttk.Label(self, text="This graph is using a method to read from a txt file. \nThis is live. If you change and save the txt file, the plot will change."
+                                      "\nFile: 6sampleData.txt ", font=LARGE_FONT)
+        label2.pack(padx=10, pady=10)
 
+        # -------------------------------------
         # ttk will give us a good looking button
         GraphPage_homeButton = ttk.Button(self, text="Back to Home",
                             command=lambda: controller.show_frame(StartPage))
         GraphPage_homeButton.pack()
 
-        # ttk will give us a good looking button
-        GraphPage_closePageButton = ttk.Button(self, text="To Close Page",
-                            command=lambda: controller.show_frame(ClosePage))
-        GraphPage_closePageButton.pack()
 
     #****NEW********
     # We created these 3 lines in part5, we are cutting these and putting them
@@ -242,26 +201,6 @@ class GraphPage(ttk.Frame):
         # Note we just added the standard tool bar to the graph but I
         #   i could not see it at first. I had to increase my y-height on page
 
-
-# ==================================================
-# You can see that these are basic pages, and can begin with a copy/paste
-# Details/attributes need to be changed but they follow the same format from the beginning.
-#
-class ClosePage(ttk.Frame):
-    def __init__(self, parent, controller):
-        ttk.Frame.__init__(self, parent)
-        label = ttk.Label(self, text="Close Page", font=LARGE_FONT)
-        label.pack(padx=10, pady=10)
-
-        # ttk will give us a good looking button
-        closePage_pageThreeButton = ttk.Button(self, text="Graph Page",
-                            command=lambda: controller.show_frame(GraphPage))
-        closePage_pageThreeButton.pack()
-
-        # ttk will give us a good looking button
-        closePage_closeButton = ttk.Button(self, text="Close",
-                            command=exit)
-        closePage_closeButton.pack()
 
 # ==================================================
 
