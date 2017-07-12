@@ -6,6 +6,7 @@ We have our base pages and buttons created in files 1-5
     But we deleted the base pages to reduce clutter. They do nothing. We are focused on the plot page.
     On file 5, we added a graph page and created a plot on the Graph page.
     We added that graph page to our dictionary
+
     Here will will make this a live graph that we can adjust by saving the txt file.
 
     1) We import the animation sub-library from matplotlib

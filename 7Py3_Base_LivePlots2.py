@@ -4,8 +4,9 @@ BasePage 7:
 In file 6, we had created our pages and one was a graph page that plotted.
     We created a method that pulled data from a text file so we could plot on the
         graph page.
+
 Here we will continue with this and make it more accessable to live-changing,
-    such as if we are pulling in sales data.
+    such as if we are pulling in sales data from a website.
 
     #note: We deleted several of the base pages, there were not doing anything.
         We are just focused on the plot and live plot designs.

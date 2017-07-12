@@ -3,7 +3,7 @@ BasePage 8:
 
 In file 7 we created a live plot that pulled, decoded, and edited data from a Bitcoin trading website and used the animate method to plot, and continued to adjust an open plot, based and internet connection and the updated trading data.
 
- This is the same, but we are editing it and customizing the plot.
+ This is the same, but we are editing it and customizing the plot aesthetically.
 
  1) Played with the f = Figure  determined best size for our graph. (switched to 10,6)
  2) Added,   "g", label="buys")    to the a.plot functions in the animate method.
